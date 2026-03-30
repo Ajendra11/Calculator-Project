@@ -1,7 +1,7 @@
 def calculator():
     print("Simple Calculator")
 
-<<<<<<< HEAD
+
     print("1. Add")
     choice = input("Enter choice: ")
 
@@ -12,7 +12,7 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
-=======
+
     print("2. Subtract")
     choice = input("Enter choice: ")
 
@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     calculator()
->>>>>>> origin/feature-calculator-subtract
+
