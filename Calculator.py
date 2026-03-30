@@ -1,6 +1,7 @@
 def calculator():
     print("Simple Calculator")
 
+<<<<<<< HEAD
 
     print("1. Add")
     choice = input("Enter choice: ")
@@ -24,3 +25,15 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     calculator()
 
+=======
+    print("3. Multiply")
+    choice = input("Enter choice: ")
+
+    if choice == "3":
+        a = int(input("Enter first number: "))
+        b = int(input("Enter second number: "))
+        print("Result:", a * b)
+
+if __name__ == "__main__":
+    calculator()
+>>>>>>> origin/feature-calculator-multiplication
