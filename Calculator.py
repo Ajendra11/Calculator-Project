@@ -24,3 +24,17 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     calculator()
 
+
+def calculator():
+    print("Simple Calculator")
+
+    print("4. Divide")
+    choice = input("Enter choice: ")
+
+    if choice == "4":
+        a = int(input("Enter first number: "))
+        b = int(input("Enter second number: "))
+        print("Result:", a / b)
+
+if __name__ == "__main__":
+    calculator()
