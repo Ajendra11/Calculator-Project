@@ -1,1 +1,13 @@
-hi 
+def calculator():
+    print("Simple Calculator")
+
+    print("2. Subtract")
+    choice = input("Enter choice: ")
+
+    if choice == "2":
+        a = int(input("Enter first number: "))
+        b = int(input("Enter second number: "))
+        print("Result:", a - b)
+
+if __name__ == "__main__":
+    calculator()
